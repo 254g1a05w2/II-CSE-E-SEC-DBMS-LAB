@@ -19,6 +19,8 @@ VALUES('Smith',17,1,'CS'),('Brown',8,2,'CS');
 ## DISPLAY STUDENT TABLE
 SELECT * FROM STUDENT;
 
+![output 1](outputa.png)
+
 ##CREATE COURSE TABLE
 CREATE TABLE COURSE(
 Course_Name VARCHAR2(40),
@@ -38,6 +40,8 @@ VALUES('Discrete Mathematics','MATH2410',3,'MATH'),('Database','CS3380',3,'CS');
 
 ##DISPLAY COURSE TABLE
 SELECT * FROM COURSE;
+
+![output 2](outputb.png)
 
 ##CREATE SECTION TABLE
 CREATE TABLE SECTION(
@@ -60,6 +64,8 @@ VALUES(112,'MATH2410','Fall',08,'Chang'),(119,'CS1310','Fall',08,'Anderson'),(13
 ##DISPLAY COURSE TABLE
 SELECT * FROM SECTION;
 
+![output 3](outputc.png)
+
 ##CREATE GRADE_REPORT TABLE
 CREATE TABLE GRADE_REPORT(
 Student_Number NUMBER,
@@ -76,3 +82,6 @@ VALUES(17,112,'B'),(17,119,'C'),(8,85,'A'),(8,92,'A'),(8,102,'B'),(8,135,'A');
 
 #DISPLAY GRADE_REPORT TABLE
 SELECT * FROM GRADE_REPORT;
+
+![output 4](outputd.png)
+
