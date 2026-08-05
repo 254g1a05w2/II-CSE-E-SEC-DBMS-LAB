@@ -1,6 +1,3 @@
-#EXPERIMENT 2 IS COMPLETED
-
-'''
 CREATE TABLE sailors(
 sid NUMBER PRIMARY KEY,
 sname VARCHAR2(20) NOT NULL,
@@ -74,13 +71,3 @@ VALUES(74,103,TO_DATE('9/8/98','MM/DD/YY'));
 
 
 SELECT * FROM reserves;
-
-'''
-##screen shots
-
-![output1](OUTPUT1.png)
-![output 2](OUTPUT2.png)
-![output 3](OUTPUT3.png)
-![output 4](OUTPUT4.png)
-![output 5](OUTPUT5.png)
-![output 6](OUTPUT6.png)
