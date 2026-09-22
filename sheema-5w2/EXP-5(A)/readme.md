@@ -6,7 +6,7 @@ CREATE TABLE STUDENT (
     COURSE VARCHAR2(20),
     MARKS NUMBER(3)
 );
-![output1](output1.png)
+![output1](outputs/output1.png)
 #insert data
 INSERT INTO STUDENT VALUES (101, 'Ayesha', 'CSE', 85);
 INSERT INTO STUDENT VALUES (102, 'Rahul', 'CSE', 55);
@@ -25,7 +25,7 @@ INSERT INTO STUDENT VALUES (114, 'Rohit', 'CSE', 39);
 INSERT INTO STUDENT VALUES (115, 'Sara', 'ECE', 81);
 
 COMMIT;
-![output2](output2.png)
+![output2](outputs/output2.png)
 #code
 --PL/SQL CODE
 SET SERVEROUTPUT ON;
@@ -75,6 +75,6 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
 END;
 /
-![output3](output3.png)
-![output4](output4.png)
-![output5](output5.png)
+![output3](outputs/output3.png)
+![output4](outputs/output4.png)
+![output5](outputs/output5.png)
